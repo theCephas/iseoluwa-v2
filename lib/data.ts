@@ -69,7 +69,7 @@ export const profile: Profile = {
   email: "oshoiseoluwa@gmail.com",
   phone: "+234 811 047 0908",
   summary:
-    "A full stack engineer with a record of building scalable, user-centred web applications — from real-time dashboards and fintech platforms to AI-driven compliance systems. Committed to clean architecture, minimal technical debt, and adapting quickly to an ever-evolving technological landscape.",
+    "A full stack engineer with a record of building scalable, user-centred web applications - from real-time dashboards and fintech platforms to AI-driven compliance systems. Committed to clean architecture, minimal technical debt, and adapting quickly to an ever-evolving technological landscape.",
   links: {
     linkedin: "https://linkedin.com/in/osho-iseoluwa",
     github: "https://github.com/theCephas",
