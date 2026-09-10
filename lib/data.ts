@@ -74,7 +74,7 @@ export const profile: Profile = {
     linkedin: "https://linkedin.com/in/osho-iseoluwa",
     github: "https://github.com/theCephas",
     portfolio: "https://oshoiseoluwa.vercel.app",
-    cv: "/resume.pdf",
+    cv: "/resume/iseoluwa_resume.pdf",
   },
 };
 
