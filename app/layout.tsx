@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, EB_Garamond } from "next/font/google";
 import "./globals.css";
-import { ExLibrisNav } from "@/components/ExLibrisNav";
-import { CustomCursor } from "@/components/CustomCursor";
 import { profile } from "@/lib/data";
 
 // ── Fonts ──────────────────────────────────────────────────────────────────
@@ -89,9 +87,6 @@ export default function RootLayout({
       className={`${playfair.variable} ${ebGaramond.variable}`}
     >
       <body>
-        <CustomCursor />
-        {/* Fixed corner navigation — Ex Libris style */}
-        <ExLibrisNav />
         {children}
       </body>
     </html>

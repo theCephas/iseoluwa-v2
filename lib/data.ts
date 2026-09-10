@@ -45,6 +45,7 @@ export interface Certification {
   title: string;
   issuer: string;
   date: string;
+  slug?: string;        // used for /cert/[slug] shareable URL
   credentialUrl?: string;
   credentialId?: string;
 }
@@ -312,30 +313,35 @@ export const certifications: Certification[] = [
     title: "Brixgate Certificate",
     issuer: "Brixgate",
     date: "2025",
+    slug: "brixgate",
     credentialUrl: "/certificates/BRIXGATE-Certificate — Iseoluwa Osho.pdf",
   },
   {
     title: "HNG Internship Certificate",
     issuer: "HNG Tech",
     date: "2024",
+    slug: "hng-internship",
     credentialUrl: "/certificates/Osho Iseoluwa_certificate_HNG.pdf",
   },
   {
     title: "Early Stemer Certificate I",
     issuer: "Early Stemer",
     date: "2024",
+    slug: "early-stemer-1",
     credentialUrl: "/certificates/earlystemer_cert1.pdf",
   },
   {
     title: "Early Stemer Certificate II",
     issuer: "Early Stemer",
     date: "2024",
+    slug: "early-stemer-2",
     credentialUrl: "/certificates/earlystemer_cert2.pdf",
   },
   {
     title: "DryCode Certificate",
     issuer: "DryCode",
     date: "2024",
+    slug: "drycode",
     credentialUrl: "/certificates/iseoluwa_drycode_certificate.pdf",
   },
 ];
